@@ -7,6 +7,7 @@ DB that i used is Microsoft SQL Server.
 Created tables,triggers,procedures,schemas,horizontal and vertical partitions.
 
 # Usage
+To set database ,go in SQL Server Managment Studio then File -> Open -> File and open Database(from downloaded) -> Baze2BoxDB(sql file) then Execute it.
 To successfully connect to databse go into file 'Konekcija.py' and change Driver and Server for your device.
 Go into 'boxposloviprojekat.py' press right click on any part of code screen than click 'Run Python File in Terminal' and it will run application.
 
