@@ -1,5 +1,5 @@
 from tkinter import *
-
+from Konekcija import konn
 import pyodbc
 
 from TrojniUgovo import TrojniUgovorClass
@@ -9,12 +9,7 @@ from Poslodavac import PoslodavacClass
 from Faktura import FakturaClass
 from PristupniFormular import PristupniFormularClass
 
-conn = pyodbc.connect(
-    "Driver={SQL Server Native Client 11.0};"
-    "Server=LAPTOP-RIM8T9PN;"
-    "Database=BOX;"
-    "Trusted_Connection=yes;"
-)
+conn = konn
 
 main = Tk()
 main.title('BOX')

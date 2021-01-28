@@ -2,13 +2,9 @@ from tkinter import *
 import pyodbc
 import tkinter as tk
 from tkinter import messagebox
+from Konekcija import konn
 
-conn = pyodbc.connect(
-    "Driver={SQL Server Native Client 11.0};"
-    "Server=LAPTOP-RIM8T9PN;"
-    "Database=BOX;"
-    "Trusted_Connection=yes;"
-)
+conn = konn
 
 class PosloviPosloviClass():
     @staticmethod

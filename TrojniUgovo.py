@@ -1,14 +1,10 @@
 from tkinter import *
 from tkinter import messagebox
 import pyodbc
+from Konekcija import konn
 
 
-conn = pyodbc.connect(
-    "Driver={SQL Server Native Client 11.0};"
-    "Server=LAPTOP-RIM8T9PN;"
-    "Database=BOX;"
-    "Trusted_Connection=yes;"
-)
+conn = konn
 
 class TrojniUgovorClass():
     def TrojniUgovor():
